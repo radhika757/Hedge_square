@@ -1,0 +1,159 @@
+CRITICAL - 2022-12-15 05:22:40 --> Undefined property: App\Controllers\Landing::$model
+in APPPATH\Controllers\Landing.php on line 12.
+ 1 APPPATH\Controllers\Landing.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Landing::$model', 'APPPATH\\Controllers\\Landing.php', 12, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:24:01 --> Too few arguments to function App\Models\AdminModel::add_blog(), 1 passed in C:\wamp64\www\hedge-square\app\Controllers\Landing.php on line 15 and exactly 2 expected
+in APPPATH\Models\AdminModel.php on line 28.
+ 1 APPPATH\Controllers\Landing.php(15): App\Models\AdminModel->add_blog([])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:33:19 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(16): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:33:26 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(16): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:33:26 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(16): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:34:15 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(19): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:34:29 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(19): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:34:30 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(19): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:34:47 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(19): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 05:34:54 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->Home()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:12:27 --> Undefined index: num
+in APPPATH\Models\MainModel.php on line 22.
+ 1 APPPATH\Models\MainModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: num', 'APPPATH\\Models\\MainModel.php', 22, [...])
+ 2 APPPATH\Controllers\Landing.php(25): App\Models\MainModel->enq_insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->enqInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:14:06 --> Undefined index: service
+in APPPATH\Models\MainModel.php on line 23.
+ 1 APPPATH\Models\MainModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: service', 'APPPATH\\Models\\MainModel.php', 23, [...])
+ 2 APPPATH\Controllers\Landing.php(25): App\Models\MainModel->enq_insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->enqInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-15 06:14:21 --> mysqli_sql_exception: Unknown column 'en_date' in 'field list' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `en...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `en...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `en...')
+#3 C:\wamp64\www\hedge-square\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `en...', Array, false)
+#4 C:\wamp64\www\hedge-square\app\Models\MainModel.php(28): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\hedge-square\app\Controllers\Landing.php(25): App\Models\MainModel->enq_insert(Array)
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Landing->enqInsert()
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+#8 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-15 06:14:21 --> Unknown column 'en_date' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `enquiry_form` (`name`, `email`, `number`, `service`, `en_date`) VALUES (\'radhikka\', \'radhika@gmail.com\', \'9810227863\', \'thankjs\', \'2022-12-15\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `enquiry_form` (`name`, `email`, `number`, `service`, `en_date`) VALUES (\'radhikka\', \'radhika@gmail.com\', \'9810227863\', \'thankjs\', \'2022-12-15\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `enquiry_form` (`name`, `email`, `number`, `service`, `en_date`) VALUES (\'radhikka\', \'radhika@gmail.com\', \'9810227863\', \'thankjs\', \'2022-12-15\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `enquiry_form` (`name`, `email`, `number`, `service`, `en_date`) VALUES (:name:, :email:, :number:, :service:, :en_date:)', [...], false)
+ 5 APPPATH\Models\MainModel.php(28): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Landing.php(25): App\Models\MainModel->enq_insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->enqInsert()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:14:36 --> The route for "main" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('main')
+ 2 APPPATH\Controllers\Landing.php(26): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->enqInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 06:17:40 --> The route for "/headgesquare" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/headgesquare')
+ 2 APPPATH\Controllers\Landing.php(26): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->enqInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 23:30:35 --> Undefined index: mobile_number
+in APPPATH\Models\MainModel.php on line 22.
+ 1 APPPATH\Models\MainModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: mobile_number', 'APPPATH\\Models\\MainModel.php', 22, [...])
+ 2 APPPATH\Controllers\Landing.php(36): App\Models\MainModel->enq_insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->contactInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 23:31:34 --> Undefined index: mobile_number
+in APPPATH\Models\MainModel.php on line 22.
+ 1 APPPATH\Models\MainModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: mobile_number', 'APPPATH\\Models\\MainModel.php', 22, [...])
+ 2 APPPATH\Controllers\Landing.php(36): App\Models\MainModel->enq_insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->contactInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 23:31:37 --> Undefined index: mobile_number
+in APPPATH\Models\MainModel.php on line 22.
+ 1 APPPATH\Models\MainModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: mobile_number', 'APPPATH\\Models\\MainModel.php', 22, [...])
+ 2 APPPATH\Controllers\Landing.php(36): App\Models\MainModel->enq_insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->contactInsert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

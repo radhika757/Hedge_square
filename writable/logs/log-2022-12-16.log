@@ -1,0 +1,137 @@
+CRITICAL - 2022-12-16 00:39:16 --> Invalid file: contactform.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contactform.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('contactform', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(66): view('contactform')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->contact_form_details()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:41:21 --> Undefined variable: blog_display
+in APPPATH\Views\Admin\contactform.php on line 45.
+ 1 APPPATH\Views\Admin\contactform.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: blog_display', 'APPPATH\\Views\\Admin\\contactform.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\contactform.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/contactform', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(66): view('Admin/contactform')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->contact_form_details()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:42:42 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Admin\contactform.php on line 54.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/contactform', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(66): view('Admin/contactform')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->contact_form_details()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:54:23 --> Undefined variable: contact
+in APPPATH\Views\Admin\contactform.php on line 39.
+ 1 APPPATH\Views\Admin\contactform.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: contact', 'APPPATH\\Views\\Admin\\contactform.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\contactform.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/contactform', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(66): view('Admin/contactform')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->contact_form_details()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 00:55:02 --> Undefined variable: blg
+in APPPATH\Views\Admin\contactform.php on line 51.
+ 1 APPPATH\Views\Admin\contactform.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: blg', 'APPPATH\\Views\\Admin\\contactform.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\contactform.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/contactform', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(68): view('Admin/contactform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->contact_form_details()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 03:28:37 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(51): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 03:28:37 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs')
+ 4 APPPATH\Models\AdminModel.php(94): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs')
+ 5 APPPATH\Controllers\Dashboard.php(51): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 03:42:10 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Models\AdminModel.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\admin_assests\\images', 'ROOTPATH\\public')
+ 3 APPPATH\Controllers\Dashboard.php(38): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 03:42:32 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Models\AdminModel.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\admin_assests\\images', 'ROOTPATH\\public')
+ 3 APPPATH\Controllers\Dashboard.php(38): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 04:32:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Landing.php(41): CodeIgniter\Model->__call('display_blogs', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->blogs_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 04:32:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Landing.php(41): CodeIgniter\Model->__call('display_blogs', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->blogs_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 04:33:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Landing.php(41): CodeIgniter\Model->__call('display_blogs', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->blogs_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 04:34:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Landing.php(41): CodeIgniter\Model->__call('display_blogs', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->blogs_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 04:34:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Landing.php(41): CodeIgniter\Model->__call('display_blogs', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Landing->blogs_view()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Landing))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

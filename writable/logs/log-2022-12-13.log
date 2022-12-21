@@ -1,0 +1,485 @@
+CRITICAL - 2022-12-13 04:47:31 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Dashboard.php(28): CodeIgniter\Model->__call('add_product', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:48:45 --> Undefined index: cat_id
+in APPPATH\Models\AdminModel.php on line 29.
+ 1 APPPATH\Models\AdminModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cat_id', 'APPPATH\\Models\\AdminModel.php', 29, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:49:00 --> Undefined index: blog-title
+in APPPATH\Models\AdminModel.php on line 30.
+ 1 APPPATH\Models\AdminModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog-title', 'APPPATH\\Models\\AdminModel.php', 30, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:49:29 --> Undefined index: blog-title
+in APPPATH\Models\AdminModel.php on line 30.
+ 1 APPPATH\Models\AdminModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog-title', 'APPPATH\\Models\\AdminModel.php', 30, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:50:33 --> Undefined index: blog_title
+in APPPATH\Models\AdminModel.php on line 30.
+ 1 APPPATH\Models\AdminModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog_title', 'APPPATH\\Models\\AdminModel.php', 30, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:50:41 --> Undefined index: blog-cat
+in APPPATH\Models\AdminModel.php on line 31.
+ 1 APPPATH\Models\AdminModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog-cat', 'APPPATH\\Models\\AdminModel.php', 31, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:51:46 --> Undefined index: blog_title
+in APPPATH\Models\AdminModel.php on line 30.
+ 1 APPPATH\Models\AdminModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog_title', 'APPPATH\\Models\\AdminModel.php', 30, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:53:14 --> Undefined index: blog_title
+in APPPATH\Models\AdminModel.php on line 30.
+ 1 APPPATH\Models\AdminModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog_title', 'APPPATH\\Models\\AdminModel.php', 30, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:53:57 --> Undefined index: blog_title
+in APPPATH\Models\AdminModel.php on line 30.
+ 1 APPPATH\Models\AdminModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog_title', 'APPPATH\\Models\\AdminModel.php', 30, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 04:58:55 --> Undefined index: blog_title
+in APPPATH\Models\AdminModel.php on line 32.
+ 1 APPPATH\Models\AdminModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog_title', 'APPPATH\\Models\\AdminModel.php', 32, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:02:57 --> Undefined index: blog_title
+in APPPATH\Models\AdminModel.php on line 32.
+ 1 APPPATH\Models\AdminModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blog_title', 'APPPATH\\Models\\AdminModel.php', 32, [...])
+ 2 APPPATH\Controllers\Dashboard.php(28): App\Models\AdminModel->add_blog([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->addBlog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:16:29 --> The route for "Admin/blogs" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('Admin/blogs')
+ 2 APPPATH\Controllers\Dashboard.php(35): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:30:49 --> syntax error, unexpected '}'
+in APPPATH\Models\AdminModel.php on line 46.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\AdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AdminModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AdminModel')
+ 4 APPPATH\Controllers\Dashboard.php(9): spl_autoload_call('App\\Models\\AdminModel')
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:40:48 --> Undefined variable: prdct
+in APPPATH\Views\Admin\blogs.php on line 49.
+ 1 APPPATH\Views\Admin\blogs.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: prdct', 'APPPATH\\Views\\Admin\\blogs.php', 49, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/blogs', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('Admin/blogs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:53:35 --> syntax error, unexpected '}', expecting ';' or ','
+in APPPATH\Views\Admin\blogs.php on line 44.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/blogs', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(22): view('Admin/blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:54:06 --> Undefined variable: i
+in APPPATH\Views\Admin\blogs.php on line 44.
+ 1 APPPATH\Views\Admin\blogs.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: i', 'APPPATH\\Views\\Admin\\blogs.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/blogs', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('Admin/blogs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 05:54:23 --> Undefined index: id 
+in APPPATH\Views\Admin\blogs.php on line 44.
+ 1 APPPATH\Views\Admin\blogs.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id ', 'APPPATH\\Views\\Admin\\blogs.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\blogs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/blogs', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(22): view('Admin/blogs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:12:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(15): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\Dashboard.php(9): App\Models\AdminModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:12:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(15): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\Dashboard.php(9): App\Models\AdminModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:12:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(15): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\Dashboard.php(9): App\Models\AdminModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:13:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(15): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\Dashboard.php(9): App\Models\AdminModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 06:13:07 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(15): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\Dashboard.php(9): App\Models\AdminModel->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:24:17 --> Invalid file: Admin/blogs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/blogs.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/blogs', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(22): view('Admin/blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:26:08 --> Invalid file: blogs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blogs.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blogs', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(22): view('blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:26:21 --> Invalid file: blogs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blogs.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blogs', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(22): view('blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:27:12 --> Invalid file: Admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(17): view('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->main()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:27:13 --> Invalid file: Admin/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(17): view('Admin/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->main()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:30:45 --> Invalid file: blogs.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blogs.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blogs', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(22): view('blogs', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->blogs()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:35:17 --> Invalid file: Products/edit_products.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Products/edit_products.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Products/edit_products', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(43): view('Products/edit_products', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:40:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:46:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\Admin\edit_blog.php on line 30.
+ 1 APPPATH\Views\Admin\edit_blog.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\Admin\\edit_blog.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:48:01 --> mysqli_sql_exception: Table 'hedge_square.blog' doesn't exist in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM b...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM b...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM b...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM b...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(42): App\Models\AdminModel->editblog('1')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:48:01 --> Table 'hedge_square.blog' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM blog WHERE id =\'1\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM blog WHERE id =\'1\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM blog WHERE id =\'1\' ')
+ 4 APPPATH\Models\AdminModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM blog WHERE id =\'1\' ')
+ 5 APPPATH\Controllers\Dashboard.php(42): App\Models\AdminModel->editblog('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:50:29 --> mysqli_sql_exception: Table 'hedge_square.blog' doesn't exist in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(42): App\Models\AdminModel->editblog('1')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:50:29 --> Table 'hedge_square.blog' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blog` WHERE id =\'1\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blog` WHERE id =\'1\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blog` WHERE id =\'1\' ')
+ 4 APPPATH\Models\AdminModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blog` WHERE id =\'1\' ')
+ 5 APPPATH\Controllers\Dashboard.php(42): App\Models\AdminModel->editblog('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-13 23:50:38 --> mysqli_sql_exception: Table 'hedge_square.blog' doesn't exist in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(42): App\Models\AdminModel->editblog('1')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-13 23:50:38 --> Table 'hedge_square.blog' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blog` WHERE id =1 ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blog` WHERE id =1 ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blog` WHERE id =1 ')
+ 4 APPPATH\Models\AdminModel.php(51): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blog` WHERE id =1 ')
+ 5 APPPATH\Controllers\Dashboard.php(42): App\Models\AdminModel->editblog('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:51:33 --> Undefined offset: 0
+in APPPATH\Views\Admin\edit_blog.php on line 26.
+ 1 APPPATH\Views\Admin\edit_blog.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\Admin\\edit_blog.php', 26, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:53:19 --> Undefined index: short_desc
+in APPPATH\Views\Admin\edit_blog.php on line 45.
+ 1 APPPATH\Views\Admin\edit_blog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: short_desc', 'APPPATH\\Views\\Admin\\edit_blog.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:54:06 --> Undefined index: short_desc
+in APPPATH\Views\Admin\edit_blog.php on line 45.
+ 1 APPPATH\Views\Admin\edit_blog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: short_desc', 'APPPATH\\Views\\Admin\\edit_blog.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:58:36 --> Undefined index: product_name
+in APPPATH\Views\Admin\edit_blog.php on line 35.
+ 1 APPPATH\Views\Admin\edit_blog.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: product_name', 'APPPATH\\Views\\Admin\\edit_blog.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 23:58:53 --> Undefined index: short_desc
+in APPPATH\Views\Admin\edit_blog.php on line 46.
+ 1 APPPATH\Views\Admin\edit_blog.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: short_desc', 'APPPATH\\Views\\Admin\\edit_blog.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\edit_blog.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Admin/edit_blog', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(43): view('Admin/edit_blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

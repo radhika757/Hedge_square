@@ -1,0 +1,503 @@
+CRITICAL - 2022-12-14 00:43:24 --> Undefined index: blg_id
+in APPPATH\Models\AdminModel.php on line 57.
+ 1 APPPATH\Models\AdminModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blg_id', 'APPPATH\\Models\\AdminModel.php', 57, [...])
+ 2 APPPATH\Controllers\Dashboard.php(53): App\Models\AdminModel->update_blg([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 00:52:18 --> Undefined index: blg_id
+in APPPATH\Models\AdminModel.php on line 57.
+ 1 APPPATH\Models\AdminModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blg_id', 'APPPATH\\Models\\AdminModel.php', 57, [...])
+ 2 APPPATH\Controllers\Dashboard.php(53): App\Models\AdminModel->update_blg([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:15:41 --> Undefined index: blg_id
+in APPPATH\Models\AdminModel.php on line 57.
+ 1 APPPATH\Models\AdminModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blg_id', 'APPPATH\\Models\\AdminModel.php', 57, [...])
+ 2 APPPATH\Controllers\Dashboard.php(53): App\Models\AdminModel->update_blg([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:28:46 --> Undefined index: blg_id
+in APPPATH\Models\AdminModel.php on line 57.
+ 1 APPPATH\Models\AdminModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blg_id', 'APPPATH\\Models\\AdminModel.php', 57, [...])
+ 2 APPPATH\Controllers\Dashboard.php(54): App\Models\AdminModel->update_blg([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 01:29:26 --> Undefined index: blg_id
+in APPPATH\Models\AdminModel.php on line 57.
+ 1 APPPATH\Models\AdminModel.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: blg_id', 'APPPATH\\Models\\AdminModel.php', 57, [...])
+ 2 APPPATH\Controllers\Dashboard.php(54): App\Models\AdminModel->update_blg([])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 02:10:44 --> Undefined index: imgs
+in APPPATH\Models\AdminModel.php on line 42.
+ 1 APPPATH\Models\AdminModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: imgs', 'APPPATH\\Models\\AdminModel.php', 42, [...])
+ 2 APPPATH\Controllers\Dashboard.php(32): App\Models\AdminModel->add_blog([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 02:11:05 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(46): CodeIgniter\Model->__get('load')
+ 4 APPPATH\Controllers\Dashboard.php(32): App\Models\AdminModel->add_blog([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 03:44:08 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(28): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Dashboard.php(33): App\Models\AdminModel->add_blog([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 03:44:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\AdminModel.php(28): CodeIgniter\Model->__get('request')
+ 4 APPPATH\Controllers\Dashboard.php(33): App\Models\AdminModel->add_blog([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:37:53 --> fopen(http://localhost/hedge-square/public/admin_assests/imagesimages/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/imagesimages/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/imagesimages/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/imagesimages/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/')
+ 4 APPPATH\Models\AdminModel.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/imagesimages/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:38:38 --> fopen(http://localhost/hedge-square/public/admin_assests/imagesimages/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/imagesimages/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/imagesimages/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/imagesimages/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 4 APPPATH\Models\AdminModel.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/imagesimages/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:39:37 --> fopen(http://localhost/hedge-square/public/admin_assests/imagesclem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/imagesclem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/imagesclem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/imagesclem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 4 APPPATH\Models\AdminModel.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/imagesclem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:40:44 --> fopen(http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 4 APPPATH\Models\AdminModel.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:41:59 --> fopen(http://localhost/hedge-square/public/admin_assests/images//clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/images//clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/images//clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/images//clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 4 APPPATH\Models\AdminModel.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/images//clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:42:16 --> fopen(http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 4 APPPATH\Models\AdminModel.php(35): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/images/clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 04:44:32 --> mysqli_sql_exception: Unknown column 'uploaded_flleinfo' in 'field list' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bl...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bl...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bl...')
+#3 C:\wamp64\www\hedge-square\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bl...', Array, false)
+#4 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog(Array, Object(CodeIgniter\HTTP\Files\UploadedFile))
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-14 04:44:32 --> Unknown column 'uploaded_flleinfo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (\'test 7\', \'Legal\', \'test 7\', \'ehjgbrt\', \'clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png\', \'2022-12-14 04:44:32\', \'Admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (\'test 7\', \'Legal\', \'test 7\', \'ehjgbrt\', \'clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png\', \'2022-12-14 04:44:32\', \'Admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (\'test 7\', \'Legal\', \'test 7\', \'ehjgbrt\', \'clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png\', \'2022-12-14 04:44:32\', \'Admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (:title:, :category:, :short_descr:, :descr:, :uploaded_flleinfo:, :posted_on:, :created_by:)', [...], false)
+ 5 APPPATH\Models\AdminModel.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 04:44:35 --> mysqli_sql_exception: Unknown column 'uploaded_flleinfo' in 'field list' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `bl...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bl...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bl...')
+#3 C:\wamp64\www\hedge-square\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bl...', Array, false)
+#4 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog(Array, Object(CodeIgniter\HTTP\Files\UploadedFile))
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-14 04:44:35 --> Unknown column 'uploaded_flleinfo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (\'test 7\', \'Legal\', \'test 7\', \'ehjgbrt\', \'clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png\', \'2022-12-14 04:44:35\', \'Admin\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (\'test 7\', \'Legal\', \'test 7\', \'ehjgbrt\', \'clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png\', \'2022-12-14 04:44:35\', \'Admin\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (\'test 7\', \'Legal\', \'test 7\', \'ehjgbrt\', \'clem-onojeghuo-n6gnCa77Urc-unsplash-removebg-preview.png\', \'2022-12-14 04:44:35\', \'Admin\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `blogs` (`title`, `category`, `short_descr`, `descr`, `uploaded_flleinfo`, `posted_on`, `created_by`) VALUES (:title:, :category:, :short_descr:, :descr:, :uploaded_flleinfo:, :posted_on:, :created_by:)', [...], false)
+ 5 APPPATH\Models\AdminModel.php(54): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:46:40 --> fopen(http://localhost/hedge-square/public/admin_assests/images/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/images/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/images/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/images/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/')
+ 4 APPPATH\Models\AdminModel.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/images/fernanda-martinez-H2RzlOijhlQ-unsplash.jpg/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 04:47:03 --> fopen(http://localhost/hedge-square/public/admin_assests/imagesfernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/hedge-square/public/admin_assests/imagesfernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html): failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179, [...])
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/hedge-square/public/admin_assests/imagesfernanda-martinez-H2RzlOijhlQ-unsplash.jpg/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/hedge-square/public/admin_assests/imagesfernanda-martinez-H2RzlOijhlQ-unsplash.jpg/')
+ 4 APPPATH\Models\AdminModel.php(37): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/hedge-square/public/admin_assests/imagesfernanda-martinez-H2RzlOijhlQ-unsplash.jpg/')
+ 5 APPPATH\Controllers\Dashboard.php(36): App\Models\AdminModel->add_blog([...], Object(CodeIgniter\HTTP\Files\UploadedFile))
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->add_blog_new()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:22:03 --> mysqli_sql_exception: Unknown column 'clem' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('clem-onojeghuo-...')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('clem-onojeghuo-...')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:22:03 --> Unknown column 'clem' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC ')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC ')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('clem-onojeghuo-n6gnC')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('clem-onojeghuo-n6gnC')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:22:33 --> mysqli_sql_exception: Unknown column 'clem' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('clem-onojeghuo-...')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('clem-onojeghuo-...')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:22:33 --> Unknown column 'clem' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC; ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC; ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC; ')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =clem-onojeghuo-n6gnC; ')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('clem-onojeghuo-n6gnC;')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('clem-onojeghuo-n6gnC;')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:30:46 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:30:46 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs ')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs ')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:30:52 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:30:52 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs ')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs ')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:31:42 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:31:42 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs ')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs ')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:33:09 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:33:09 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:33:56 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:33:56 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 05:35:42 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 05:35:42 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs')
+ 4 APPPATH\Models\AdminModel.php(61): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:53:01 --> Undefined index: hiddenimg
+in APPPATH\Models\AdminModel.php on line 71.
+ 1 APPPATH\Models\AdminModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hiddenimg', 'APPPATH\\Models\\AdminModel.php', 71, [...])
+ 2 APPPATH\Controllers\Dashboard.php(55): App\Models\AdminModel->update_blg([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:54:22 --> Undefined index: hiddenimg
+in APPPATH\Models\AdminModel.php on line 71.
+ 1 APPPATH\Models\AdminModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hiddenimg', 'APPPATH\\Models\\AdminModel.php', 71, [...])
+ 2 APPPATH\Controllers\Dashboard.php(55): App\Models\AdminModel->update_blg([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:54:42 --> Undefined index: hiddenimg
+in APPPATH\Models\AdminModel.php on line 71.
+ 1 APPPATH\Models\AdminModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hiddenimg', 'APPPATH\\Models\\AdminModel.php', 71, [...])
+ 2 APPPATH\Controllers\Dashboard.php(55): App\Models\AdminModel->update_blg([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:55:42 --> Undefined index: hiddenimg
+in APPPATH\Models\AdminModel.php on line 71.
+ 1 APPPATH\Models\AdminModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hiddenimg', 'APPPATH\\Models\\AdminModel.php', 71, [...])
+ 2 APPPATH\Controllers\Dashboard.php(55): App\Models\AdminModel->update_blg([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:56:00 --> Too few arguments to function App\Models\AdminModel::update_blg(), 1 passed in C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php on line 55 and exactly 2 expected
+in APPPATH\Models\AdminModel.php on line 68.
+ 1 APPPATH\Controllers\Dashboard.php(55): App\Models\AdminModel->update_blg([...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 05:56:13 --> Undefined index: hiddenimg
+in APPPATH\Models\AdminModel.php on line 71.
+ 1 APPPATH\Models\AdminModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: hiddenimg', 'APPPATH\\Models\\AdminModel.php', 71, [...])
+ 2 APPPATH\Controllers\Dashboard.php(55): App\Models\AdminModel->update_blg([...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->update_blog()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-14 06:30:46 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+in APPPATH\Models\AdminModel.php on line 92.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\AdminModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\AdminModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\AdminModel')
+ 4 APPPATH\Controllers\Dashboard.php(9): spl_autoload_call('App\\Models\\AdminModel')
+ 5 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Dashboard->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 23:26:29 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(95): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 23:26:29 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs')
+ 4 APPPATH\Models\AdminModel.php(95): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-14 23:51:24 --> mysqli_sql_exception: Unknown column 'blogs' in 'where clause' in C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\hedge-square\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\wamp64\www\hedge-square\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\wamp64\www\hedge-square\app\Models\AdminModel.php(91): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\wamp64\www\hedge-square\app\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+#5 C:\wamp64\www\hedge-square\system\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+#6 C:\wamp64\www\hedge-square\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\wamp64\www\hedge-square\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\hedge-square\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-14 23:51:24 --> Unknown column 'blogs' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `blogs` WHERE id =blogs', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `blogs` WHERE id =blogs')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `blogs` WHERE id =blogs')
+ 4 APPPATH\Models\AdminModel.php(91): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `blogs` WHERE id =blogs')
+ 5 APPPATH\Controllers\Dashboard.php(45): App\Models\AdminModel->editblog('blogs')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dashboard->edit_blog('blogs')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
